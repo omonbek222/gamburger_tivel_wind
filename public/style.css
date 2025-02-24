@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 8px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    max-width: 1240px;
+    min-height: 650px;
+    background: radial-gradient(54.93% 108.63% at 11.98% 19.48%, #131313 0%, rgba(0, 0, 0, 0.84) 100%);
+    border-radius: 35px;
+
+}
+.logo_phone{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22.27px;
+    color: #FFFFFFA6;
+}
+.card{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.phone_home{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22.27px;
+    color: #FFFFFF;
+    
+
+    
+}
+.phone_galereye{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 22.27px;
+    color: #FFFFFF8C;
+
+    
+}
+.phone_news{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 22.27px;
+    color: #FFFFFF8C;
+}
+.phone_abaut{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 22.27px;
+    color: #FFFFFF8C;
+}
+.cards{
+    width: 943px;
+    height: 500px;
+    
+
+    
+    
+}
+.phone_buuton{
+    width: 235px;
+    height: 81px;
+    border-radius: 23px;
+    background: linear-gradient(270deg, #2200F0 -7.02%, #6EADE8 100%);
+    box-shadow: 0px 4px 4px 0px #1549D0;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.13px;
+    color: #FFFFFF;
+    
+
+}
+.phone_buuton2{
+    width: 235px;
+    height: 81px;
+    border-radius: 23px;
+    border-width: 1px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    margin-top: 123px;
+    gap: 20px;
+    
+}
+.phone_h1{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 103.13px;
+    color: #FFFFFF;
+
+    
+}
+.phone_paragrif2{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32.44px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    
+}
