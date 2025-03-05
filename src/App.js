@@ -10,7 +10,6 @@ function App() {
       <Header />
      
       <Routes>
-        <Route path="/" element={<Header />} />
         <Route path="/footer" element={<Footer />} />
         
       </Routes>
