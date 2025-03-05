@@ -16,4 +16,9 @@
       "author": "xnsjk sksamkak"
     }
   ]
+  {
+  "scripts": {
+    "build": "postcss src/index.css -o build/styles.css"
+  }
+}
 }
