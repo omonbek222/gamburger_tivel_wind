@@ -1,23 +1,18 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./Components/Header";
-import Todos from "./Components/Todos";
-import Comments from "./Components/Comments";
-import Posts from "./Components/Posts";
+import Footer from "./Components/Footer";
+
 
 function App() {
   return (
     <Router>
       <Header />
-      {/* <Comments/> */}
-      <Posts/>
-      <Todos/>
+     
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/footer" element={<Menu />} />
-        <Route path="/todos" element={<Todos />} />
-        <Route path="/comments" element={<Comments />} />
-        <Route path="/posts" element={<Posts />} />
+        <Route path="/" element={<Header />} />
+        <Route path="/footer" element={<Footer />} />
+        
       </Routes>
     </Router>
   );
